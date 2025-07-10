@@ -1,0 +1,50 @@
+.flashcard {
+  margin-bottom: 10px;
+}
+
+.flashcard-front-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eee;
+  padding: 0 10px;
+}
+
+.flashcard-front {
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.flashcard-back {
+  outline: none;
+  padding: 10px;
+  border: 1px solid #eee;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+.toggle-button {
+  width: 30px;
+  /* square button */
+  height: 30px;
+  /* square button */
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  flex-shrink: 0;
+  /* prevent button from shrinking */
+  font-size: 18px;
+  line-height: 30px;
+  /* center icon/text vertically */
+  padding: 0;
+}
+
+.toggle-button:hover {
+  background-color: #0056b3;
+}
