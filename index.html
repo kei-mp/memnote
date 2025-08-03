@@ -20,6 +20,43 @@
         header: Header,
         flashcard: Flashcard
       },
+      data: {
+        "blocks": [
+          {
+            "type": "header",
+            "data": {
+              "text": "Example Procedure",
+              "level": 2
+            }
+          },
+          {
+            "type": "paragraph",
+            "data": {
+              "text": "This would be an example procedure using a format of 'block'ed texts and flashcards to aid understanding. It's just a proof of concept of what embedding texts and flashcards into the same text editor would do. This example just has headings and flashcards, but could be expanded to include images, tables, or even embedded video used for training."
+            }
+          },
+          {
+            "type": "flashcard",
+            "data": {
+              "frontText": "What types of block texts does the example procedure support?",
+              "backText": "Headings and flashcards"
+            }
+          },
+          {
+            "type": "flashcard",
+            "data": {
+              "frontText": "What other examples of block texts can be added in future?",
+              "backText": "Images, tables, or embedded video"
+            }
+          },
+          {
+            "type": "paragraph",
+            "data": {
+              "text": "Hopefully you can see the benefit of this compared to using something like word documents for writing procedures and separate training platforms. I've written <a href='https://kei-p.net/blog/quality-as-code/'>a blog post about it</a>. If this gets expanded into a full web app, then analytics could be used to track which users are most/least knowledgeable, or which areas people become unstuck the most."
+            }
+          },
+        ],
+      }
     });
   </script>
 </body>
